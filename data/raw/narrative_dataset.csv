@@ -1,0 +1,11 @@
+id,source_name,source_type,tradition,theme,subtheme,claim_style,authority_type,emotion_trigger,collective_function,verifiability_score,manipulation_risk,text
+1,Big Bang Theory,science,scientific cosmology,origin of universe,cosmology,evidence-based,empirical observation,curiosity,explanation,9,1,"The universe began in a hot dense state and expanded over time."
+2,Genesis,religion,christianity,origin of universe,creation,sacred narrative,scripture,meaning,social cohesion,2,3,"In the beginning God created the heavens and the earth."
+3,Buddhist Teaching,religion,buddhism,existence,suffering,spiritual doctrine,tradition,acceptance,inner order,3,2,"Life contains suffering and liberation comes through understanding and practice."
+4,Existentialism,philosophy,existentialism,meaning of life,freedom,philosophical reflection,reason,anxiety,individual reflection,6,1,"Human beings are condemned to be free and must create meaning."
+5,Apocalyptic Propaganda,manipulative narrative,extremist discourse,end times,collective fear,authoritarian persuasion,charismatic authority,fear,mass obedience,1,9,"The end is near and only total obedience will save the chosen group."
+6,Scientific Method,science,scientific reasoning,truth,evidence,methodological reasoning,replication,doubt,knowledge building,10,1,"Claims must be tested, observed and challenged through evidence."
+7,Conspiracy Narrative,manipulative narrative,conspiracy,hidden truth,power control,emotional persuasion,anonymous authority,suspicion,group polarization,1,8,"A hidden elite controls the world and only a few can see the truth."
+8,Islamic Creation,religion,islam,origin of universe,creation,sacred narrative,scripture,reverence,social order,2,3,"Allah is the creator of the heavens and the earth."
+9,Nihilism,philosophy,nihilism,meaning of life,meaninglessness,philosophical reflection,reason,emptiness,individual rupture,5,2,"Life has no inherent meaning or objective value."
+10,Mass Political Messaging,manipulative narrative,propaganda,collective identity,enemy construction,persuasive rhetoric,leader authority,anger,mobilization,2,8,"The enemy is responsible for every problem and unity requires total loyalty."
