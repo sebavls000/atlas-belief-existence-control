@@ -1,55 +1,89 @@
 # Atlas of Belief, Existence and Control
 
-Dashboard interactivo construido con Streamlit para explorar cómo distintos sistemas narrativos explican el origen, el significado, la verdad, el miedo, el orden colectivo y la influencia social.
+<p align="center">
+  <img src="assets/screenshots/overview.png" width="800">
+</p>
 
-## Descripción
+<p align="center">
+  <b>Interactive Streamlit dashboard for analyzing belief systems, narratives and mass influence.</b>
+</p>
 
-Este proyecto analiza cuatro grandes dominios narrativos:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue">
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-red">
+  <img src="https://img.shields.io/badge/Data-Analysis-green">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+</p>
 
-- Ciencia
-- Religión
-- Existencialismo / Filosofía
-- Manipulación masiva
+---
 
-A través de un dataset estructurado, el dashboard permite comparar verificabilidad, riesgo de manipulación, composición temática y relaciones conceptuales entre tradiciones, fuentes y temas.
+## Overview
 
-## Objetivos del proyecto
+This project explores how different narrative systems shape perception of reality, meaning, truth and social control.
 
-- Visualizar distintos tipos de narrativas dentro de un entorno unificado
-- Comparar verificabilidad y riesgo de manipulación
-- Explorar patrones temáticos entre ciencia, religión, filosofía y discursos manipulativos
-- Representar relaciones conceptuales mediante una red visual
-- Incorporar soporte multimedia para enriquecer la experiencia analítica
+It focuses on four core domains:
 
-## Funcionalidades principales
+- Science  
+- Religion  
+- Existentialism / Philosophy  
+- Mass Manipulation  
 
-- Filtros por tipo de fuente y tradición / sistema
-- Tarjetas visuales temáticas
-- Métricas generales del dataset
-- Tabla de datos interactiva
-- Distribución por tipo de fuente
-- Riesgo medio de manipulación por tradición
-- Posicionamiento narrativo
-- Composición temática
-- Matriz comparativa de narrativas
-- Tabla comparativa
-- Narrativas de alto riesgo
-- Red conceptual entre tradiciones y temas
-- Pestaña multimedia con videos temáticos
-- Conclusión general automatizada
+Using a structured dataset, the system allows deep comparative analysis between narratives.
 
-## Tecnologías utilizadas
+---
 
-- Python
-- Streamlit
-- Pandas
-- Plotly Express
-- NetworkX
-- OpenPyXL
+## Key Insights
 
-## Estructura del proyecto
+- Not all narratives aim for truth — many optimize influence  
+- Scientific narratives prioritize verifiability  
+- Religious systems prioritize meaning and structure  
+- Manipulative narratives maximize emotional impact and control  
+- Philosophical systems explore existence without fixed answers  
 
-```bash
+---
+
+## Dashboard Preview
+
+### Overview
+![Overview](assets/screenshots/overview.png)
+
+### Analytical Comparison
+![Comparison](assets/screenshots/comparison.png)
+
+### Conceptual Network
+![Network](assets/screenshots/network.png)
+
+### Multimedia Section
+![Multimedia](assets/screenshots/multimedia.png)
+
+---
+
+## Features
+
+- Narrative filtering by source and tradition/system  
+- Interactive dataset exploration  
+- Visual thematic categorization  
+- Comparative analysis of narratives  
+- Manipulation risk scoring  
+- Conceptual network visualization  
+- Multimedia integration  
+- Automated analytical conclusions  
+
+---
+
+## Technologies
+
+- Python  
+- Streamlit  
+- Pandas  
+- Plotly  
+- NetworkX  
+
+---
+
+## Project Structure
+
+```
 atlas-belief-existence-control/
 │
 ├── app/
@@ -71,5 +105,40 @@ atlas-belief-existence-control/
 │   ├── philosophy.mp4
 │   └── manipulation.mp4
 │
+├── assets/
+│   └── screenshots/
+│       ├── overview.png
+│       ├── comparison.png
+│       ├── network.png
+│       └── multimedia.png
+│
 ├── README.md
 └── requirements.txt
+```
+
+---
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app/dashboard.py
+```
+
+---
+
+## Purpose
+
+To build a unified analytical framework that explains how belief systems operate, influence societies and shape human perception.
+
+---
+
+## Author
+
+Sebastian Valles
+
+---
+
+## License
+
+This project is for educational and analytical purposes.
